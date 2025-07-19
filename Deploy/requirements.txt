@@ -1,0 +1,7 @@
+langchain==0.3.26
+langchain_openai==0.3.28
+langchain_pinecone==0.2.9
+pinecone==7.3.0
+python-dotenv==1.1.1
+Requests==2.32.4
+streamlit==1.46.1
