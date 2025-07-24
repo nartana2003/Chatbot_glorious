@@ -196,11 +196,7 @@ search_tool = DuckDuckGoSearchRun()
 
 # ========== Streamlit UI ==========
 st.set_page_config(page_title="Glorious Chatbot")
-col1, col2 = st.columns([1, 4])
-with col1:
-    st.image("Final_deploy\\Glorious Picture.png", width=100)
-with col2:
-    st.title("Glorious AI Assistant")
+st.title("Glorious AI Assistant")
 
 if 'user_location' not in st.session_state:
     with st.spinner("🌍 Detecting your location..."):
