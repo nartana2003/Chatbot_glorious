@@ -198,7 +198,7 @@ search_tool = DuckDuckGoSearchRun()
 st.set_page_config(page_title="Glorious Chatbot")
 col1, col2 = st.columns([1, 4])
 with col1:
-    st.image("Glorious Picture.png", width=100)
+    st.image("Final_deploy\Glorious Picture.png", width=100)
 with col2:
     st.title("Glorious AI Assistant")
 
